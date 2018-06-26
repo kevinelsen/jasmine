@@ -1,37 +1,37 @@
 /**
  * Exercice sur les chaines de caractères.
  * Trouvez la façon de faire la plus optimal.
- * Il peut y avoir plusieur façon de faire. 
+ * Il peut y avoir plusieur façon de faire.
  */
 var tailleString = function (texte) {
-    return 'A completer';
+    return texte.length;
 }
 var remplaceECar = function (texte) {
-    return 'A completer';
+    return texte.replace('e', ' ');
 }
 var concatString = function (texte1, texte2) {
-    return 'A completer';
+    return texte1 + texte2;
 }
 var afficherCar5 = function (texte) {
-    return 'A completer';
+    return (texte[4]);
 }
 var afficher9Car = function (texte) {
-    return 'A completer';
+    return texte.substr(0, 9);
 }
 var majusculeString = function (texte) {
-    return 'A completer';
+    return texte.toUpperCase();
 }
 var minusculeString = function (texte) {
-    return 'A completer';
+    return texte.toLowerCase();
 }
 var SupprEspaceString = function (texte) {
-    return 'A completer';
+    return texte.trim('');
 }
 var IsString = function (texte) {
-    return 'A completer';
+    return typeof texte === 'string';
 }
 var AfficherExtensionString = function (texte) {
-    return 'A completer';
+    return texte.split('');
 }
 var NombreEspaceString = function (texte) {
     return 'A completer';
