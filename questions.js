@@ -31,7 +31,7 @@ var IsString = function (texte) {
     return typeof texte === 'string';
 }
 var AfficherExtensionString = function (texte) {
-    return texte.substr(-3);
+    return texte.split('.')[1];
 }
 var NombreEspaceString = function (texte) {
     return texte.split(' ').length -1;
