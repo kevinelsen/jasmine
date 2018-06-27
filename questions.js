@@ -31,33 +31,39 @@ var IsString = function (texte) {
     return typeof texte === 'string';
 }
 var AfficherExtensionString = function (texte) {
-    return texte.split('');
+    return texte.substr(-3);
 }
 var NombreEspaceString = function (texte) {
-    return 'A completer';
+    return texte.split(' ').length -1;
 }
 var InverseString = function (texte) {
-    return 'A completer';
+    return texte.split('').reverse().join('');
 }
 
 /**
  * Exercices sur les nombres et les caluls mathématiques
  */
 var calculPuissance = function (x, y) {
-    return 'A completer';
+    return  Math.pow(x, y);
 }
 var valeurAbsolue = function (nombre) {
-    return 'A completer';
+    return  Math.abs(-5, 5);
 }
 var valeurAbsolueArray = function (array) {
-    return 'A completer';
+  for(var i = 0; i < array.length; i++){
+    array[i] = Math.abs(array[i]);
+  }
+    return array;
 }
 var sufaceCercle = function (rayon) {
-    return 'A completer';
+    return Math.round(Math.pow(rayon, 2) * Math.PI );
 }
 var hypothenuse = function (ab, ac) {
-    return 'A completer';
+    return Math.sqrt(Math.pow(ab, 2) + Math.pow(ac, 2));
 }
 var calculIMC = function (poids, taille) {
-    return 'A completer';
+var imc = poids / Math.pow(taille, 2)
+    return parseFloat(imc.toFixed(2));
+
+
 }
